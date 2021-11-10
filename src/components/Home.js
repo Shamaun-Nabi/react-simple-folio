@@ -25,7 +25,7 @@ const Home = () => {
     <div className={styles.mainBg}>
       <Navbar></Navbar>
       <div className={styles.Hero}>
-        <div className="container mt-14">
+        <div className="container sm:mt-0 md:mt-14 ">
           <div className="row ">
             <div className="col-12 ">
               <div>
@@ -33,7 +33,6 @@ const Home = () => {
                 {/* Type Script Area */}
                 <div className={styles.typewriter}>
                   <Typewriter
-                    className="font-mono text-white"
                     options={{
                       strings: ["FREELANCER", "DEVELOPER", "DESIGNER"],
                       autoStart: true,
@@ -46,11 +45,11 @@ const Home = () => {
             </div>
           </div>
           {/* Location Area */}
-          <div className="row mt-4">
+          <div className="row mt-0 md-md-4">
             <div className="col-6">
               <div className="row">
                 {detailData.map((detailData) => (
-                  <div className="col-4 mt-4 border-gray-100 border-l-2">
+                  <div className="col-12 col-md-4 mt-0 mt-md-5 border-gray-100 border-l-2">
                     <h2 className="text-base text-gray-100">Morocco</h2>
                     <h2 className="text-base text-gray-400 ml-3">
                       Morocco - Rasa
