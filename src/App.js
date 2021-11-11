@@ -9,7 +9,7 @@ import "remixicon/fonts/remixicon.css";
 function App() {
   return (
     // Remove this area and start your code
-    <div>
+    <div className="body">
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
