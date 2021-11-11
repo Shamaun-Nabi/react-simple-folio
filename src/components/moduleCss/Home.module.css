@@ -8,14 +8,4 @@
   object-fit: fill;
   background-position: center;
 }
-.Hero {
-  font-family: "Saira", sans-serif;
-}
 
-.typewriter {
-  font-family: "Saira", sans-serif;
-  font-size: 60px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  color: transparent;
-}
