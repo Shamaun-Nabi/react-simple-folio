@@ -28,48 +28,51 @@ export default function Navbar() {
             </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul  className="navbar-nav ms-auto mb-2 mb-lg-0 text-center font-serif ">
-              <li className="p-2">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center font-serif ">
+              <li className="p-2 ">
                 <NavLink
                   className=" active no-underline text-gray-200 hover:text-pink-600 "
-                 
                   aria-current="page"
                   to="/home"
                 >
                   <span className={styles.Nav}>Home</span>
                 </NavLink>
               </li>
-              <li className="p-2">
-                <NavLink
-                  className="no-underline text-gray-200 hover:text-pink-600"
-                  to="/about"
-                >
-                  <span className={styles.Nav}>About</span>
-                </NavLink>
+              <li className="p-2 ">
+                <a href="#about" className="no-underline">
+                  <span
+                    className={`${styles.Nav} hover:text-pink-600 no-underline text-gray-100`}
+                  >
+                    About
+                  </span>
+                </a>
               </li>
               <li className="p-2">
-                <NavLink
-                  className="no-underline text-gray-200 hover:text-pink-600"
-                  to="/about"
-                >
-                  <span className={styles.Nav}>Services</span> 
-                </NavLink>
+                <a href="#services" className="no-underline">
+                  <span
+                    className={`${styles.Nav} hover:text-pink-600 no-underline text-gray-100`}
+                  >
+                    Services
+                  </span>
+                </a>
               </li>
               <li className="p-2">
-                <NavLink
-                  className="no-underline text-gray-200 hover:text-pink-600"
-                  to="/about"
-                >
-                   <span className={styles.Nav}>Portfolio</span>
-                </NavLink>
+                <a href="#portfolio" className="no-underline">
+                  <span
+                    className={`${styles.Nav} hover:text-pink-600 no-underline text-gray-100`}
+                  >
+                    Portfolio
+                  </span>
+                </a>
               </li>
               <li className="p-2">
-                <NavLink
-                  className="no-underline text-gray-200 hover:text-pink-600"
-                  to="/about"
-                >
-                   <span className={styles.Nav}>Contact</span>
-                </NavLink>
+                <a href="#contact" className="no-underline">
+                  <span
+                    className={`${styles.Nav} hover:text-pink-600 no-underline text-gray-100`}
+                  >
+                    Contact
+                  </span>
+                </a>
               </li>
             </ul>
           </div>

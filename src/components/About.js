@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../components/moduleCss/About.module.css";
+import SectionTitle from "./SectionTitle";
 
 export default function About() {
   const progressStyle = {
@@ -21,9 +22,8 @@ export default function About() {
   ];
   return (
     <>
-      <div className="container">
-        <h3 className="mt-3 ">About Us</h3>
-        <hr className={styles.line} />
+      <div className="container" id="about">
+        <SectionTitle title="About Me" />
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center mt-3 ">
             <div className="border-2 border-gray-200 p-4">
@@ -58,7 +58,9 @@ export default function About() {
                 </div>
               </div>
             ))}
-            <button className=" border-2 p-2 hover:border-red-400 transition ease-in delay-200 shadow-md rounded-md">Hire Me</button>
+            <button className=" border-2 p-2 hover:border-red-400 transition ease-in delay-200 shadow-md rounded-md">
+              Hire Me
+            </button>
           </div>
         </div>
       </div>
