@@ -26,7 +26,7 @@ export default function Services() {
         <div className="container">
           <div className="row">
             {cardData.map((cardData) => (
-              <div className="col-md-4 ">
+              <div className="col-md-4 mt-2">
                 <div className="border border-gray-700 p-3">
                   <i className={cardData.icon}></i>
                   <h4>{cardData.Name}</h4>
