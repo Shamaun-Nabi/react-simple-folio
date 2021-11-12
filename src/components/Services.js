@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
+import styles from "../components/moduleCss/Services.module.css";
 
 export default function Services() {
   const cardData = [
@@ -26,8 +27,8 @@ export default function Services() {
         <div className="container">
           <div className="row">
             {cardData.map((cardData) => (
-              <div className="col-md-4 mt-2">
-                <div className="border border-gray-700 p-3">
+              <div className={`${styles.serviceCard} col-md-4 mt-2 `}>
+                <div className=" p-3">
                   <i className={cardData.icon}></i>
                   <h4>{cardData.Name}</h4>
                   <p className="text-muted">{cardData.Desc}</p>

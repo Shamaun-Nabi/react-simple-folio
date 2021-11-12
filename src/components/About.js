@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function About() {
   const progressStyle = {
-    width: "25%",
+    width: "50%",
   };
   const progressData = [
     {
@@ -47,10 +47,9 @@ export default function About() {
                 <div className="progress mb-4">
                   <div
                     className="progress-bar "
-                    role="progressbar"
                     style={progressStyle}
-                    aria-valuenow="25"
-                    aria-valuemin="0"
+                    aria-valuenow="50"
+                    aria-valuemin="10"
                     aria-valuemax="100"
                   >
                     {progressData.width}

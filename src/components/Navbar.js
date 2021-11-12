@@ -6,7 +6,7 @@ import styles from "../components/moduleCss/Navbar.module.css";
 export default function Navbar() {
   return (
     <div className="">
-      <nav className="navbar  bg-transparent">
+      <nav className="navbar bg-transparent ">
         <div className="container">
           <NavLink to="/home">
             <img src={logo} alt="" className={styles.logoweb} />
@@ -27,7 +27,10 @@ export default function Navbar() {
               <i className="ri-menu-3-line text-gray-600"></i>
             </span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div
+            className="collapse  navbar-collapse"
+            id="navbarTogglerDemo02"
+          >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center font-serif ">
               <li className="p-2 ">
                 <NavLink

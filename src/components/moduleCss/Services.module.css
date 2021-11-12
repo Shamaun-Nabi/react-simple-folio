@@ -1,0 +1,5 @@
+.serviceCard {
+  border-radius: 16px;
+  background: #f0f0f0;
+  box-shadow: 25px 25px 49px #cccccc, -25px -25px 49px #ffffff;
+}
